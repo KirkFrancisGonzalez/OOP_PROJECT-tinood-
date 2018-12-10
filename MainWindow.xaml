@@ -5,11 +5,54 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OOP_PROJECT_tinood_"
         mc:Ignorable="d"
-        Title="MainWindow" Height="484.711" Width="547.107" WindowStartupLocation="CenterScreen">
+        Title="MainWindow" 
+        Height="540.942"
+        Width="614.584"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None">
     <Grid>
-        <Button Content="Add Transaction" HorizontalAlignment="Left" Height="44" Margin="57,27,0,0" VerticalAlignment="Top" Width="429" FontSize="16" Click="Button_Click"/>
-        <Button Content="Inventory" HorizontalAlignment="Left" Height="52" Margin="57,90,0,0" VerticalAlignment="Top" Width="429" FontSize="16" Click="Button_Click_1"/>
-        <ListBox HorizontalAlignment="Left" Height="206" Margin="57,171,0,0" VerticalAlignment="Top" Width="429"/>
+
+        <Rectangle 
+            HorizontalAlignment="Left"
+            Height="61"
+            VerticalAlignment="Top"
+            Width="608" Margin="0,389,0,0" Fill="#FF007AFF"/>
+
+        <Rectangle Fill="#FF001F42" 
+                   HorizontalAlignment="Left"
+                   Height="61"
+                   VerticalAlignment="Top"
+                   Width="608"/>
+        <Rectangle Fill="#FF007AFF" 
+            HorizontalAlignment="Left"
+            Height="61"
+            VerticalAlignment="Top"
+            Width="608" Margin="0,61,0,0"/>
+        <Button Content="Add Transaction" 
+                HorizontalAlignment="Left" 
+                Height="44" Margin="206,97,0,0" 
+                VerticalAlignment="Top" 
+                Width="215" FontSize="16" 
+                Click="Button_Click" 
+                Background="#FF082546"
+                FontFamily="MS Reference Sans Serif" Foreground="White" BorderBrush="{x:Null}"/>
+        <Button Content="Inventory" 
+                HorizontalAlignment="Left" 
+                Height="52" 
+                Margin="206,154,0,0" 
+                VerticalAlignment="Top" 
+                Width="215" FontSize="16" 
+                Click="Button_Click_1" Background="#FF082546" FontFamily="MS Reference Sans Serif" BorderBrush="{x:Null}" Foreground="White"/>
+        <ListBox HorizontalAlignment="Left" 
+                 Height="206" 
+                 Margin="91,235,0,0" 
+                 VerticalAlignment="Top" 
+                 Width="429"/>
+        <Rectangle Fill="#FF001F42" 
+            HorizontalAlignment="Left"
+            Height="61"
+            VerticalAlignment="Top"
+            Width="608" Margin="0,450,0,0"/>
 
     </Grid>
 </Window>
