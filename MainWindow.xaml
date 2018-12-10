@@ -6,11 +6,17 @@
         xmlns:local="clr-namespace:OOP_PROJECT_tinood_"
         mc:Ignorable="d"
         Title="MainWindow" 
-        Height="540.942"
+        Height="520.142"
         Width="614.584"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None">
-    <Grid>
+    <Grid Margin="0,0,0,17.4">
+
+        <Rectangle Fill="#FF001F42" 
+            HorizontalAlignment="Left"
+            Height="69"
+            VerticalAlignment="Top"
+            Width="608" Margin="0,446,0,-18.8"/>
 
         <Rectangle 
             HorizontalAlignment="Left"
@@ -48,11 +54,7 @@
                  Margin="91,235,0,0" 
                  VerticalAlignment="Top" 
                  Width="429"/>
-        <Rectangle Fill="#FF001F42" 
-            HorizontalAlignment="Left"
-            Height="61"
-            VerticalAlignment="Top"
-            Width="608" Margin="0,450,0,0"/>
+        <Button Content="X" HorizontalAlignment="Left" Margin="571,10,0,0" VerticalAlignment="Top" Width="26" Height="22" BorderBrush="{x:Null}" Foreground="White" Background="#FF007AFF" Click="Button_Click_2"/>
 
     </Grid>
 </Window>
